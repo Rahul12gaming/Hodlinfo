@@ -1,6 +1,6 @@
 
 
-  fetch('http://localhost:3000/data',{
+  fetch('https://hodlinfo-p8g6.onrender.com/data',{
     method:"GET"
   }).then(response => response.json())
   .then(data => {
